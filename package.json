@@ -1,8 +1,9 @@
 {
   "name": "firebundle",
+  "description": "A CLI tool that allows you to download npm packages as tarballs, including their dependencies recursively.",
   "module": "index.ts",
   "type": "module",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "license": "MIT",
   "scripts": {
     "build": "bun build ./index.ts --target node --outdir ./bin/"
