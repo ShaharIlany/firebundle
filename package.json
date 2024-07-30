@@ -1,0 +1,27 @@
+{
+  "name": "firebundle",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "build": "bun build ./index.ts --target node --outdir ./bin/"
+  },
+  "bin": {
+    "firebundle": "./bin/index.js",
+    "fb": "./bin/index.js"
+  },
+  "devDependencies": {
+    "@types/cli-progress": "^3.11.6"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "cli-progress": "^3.12.0",
+    "cli-spinners": "^3.1.0",
+    "commander": "^12.1.0",
+    "glob": "^11.0.0",
+    "ora": "^8.0.1",
+    "p-limit": "^6.1.0",
+    "tar": "^7.4.0"
+  }
+}
