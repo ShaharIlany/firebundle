@@ -2,11 +2,21 @@
   "name": "firebundle",
   "module": "index.ts",
   "type": "module",
-  "version": "0.1.2",
+  "version": "0.1.4",
   "license": "MIT",
   "scripts": {
     "build": "bun build ./index.ts --target node --outdir ./bin/"
   },
+  "keywords": [
+    "bundle",
+    "tarball",
+    "package",
+    "download",
+    "offline",
+    "artifactory",
+    "verdaccio",
+    "airgapped"
+  ],
   "bin": {
     "firebundle": "./bin/index.js",
     "fb": "./bin/index.js"
@@ -25,5 +35,10 @@
     "ora": "^8.0.1",
     "p-limit": "^6.1.0",
     "tar": "^7.4.0"
-  }
+  },
+  "author": "Shahar Ilany <shahar@ilany.me> (https://github.com/ShaharIlany)",
+  "bugs": {
+    "url": "https://github.com/ShaharIlany/firebundle/issues"
+  },
+  "homepage": "https://github.com/ShaharIlany/firebundle"
 }
