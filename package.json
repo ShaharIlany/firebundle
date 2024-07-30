@@ -2,6 +2,7 @@
   "name": "firebundle",
   "module": "index.ts",
   "type": "module",
+  "version": "0.1.1",
   "scripts": {
     "build": "bun build ./index.ts --target node --outdir ./bin/"
   },
