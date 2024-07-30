@@ -3,9 +3,9 @@
 # Firebundle
 
 [![NPM version](https://img.shields.io/npm/v/firebundle.svg)](https://www.npmjs.com/package/firebundle)
-[![License](https://img.shields.io/npm/l/firebundle.svg)](https://github.com/shaharilany/firebundle/blob/main/LICENSE)
+[![License](https://img.shields.io/npm/l/firebundle.svg?)](https://github.com/shaharilany/firebundle/blob/main/LICENSE)
 
-**firebundle** is a CLI tool that you to download npm packages as tarballs including their dependencies recursively. Packages can then be imported into an air-gapped package manager.
+**firebundle** is a CLI tool that allows you to download npm packages as tarballs, including their dependencies recursively. These packages can then be imported into an air-gapped package manager.
 
 ## Getting Started
 
